@@ -29,8 +29,9 @@
          <!--
 		 
 		    function recipe(){
-            result = document.form1.text1.value;
-            document.write("Entering switch block<br />");
+            result = document.form1.text1.value.toLowerCase();
+			
+            
             switch (result)
             {
                case "rice": window.location.href="rice.html";
@@ -64,7 +65,7 @@
                break;
                default:  document.write("There was no search result <h1></h1><br />")
             }
-            document.write("Exiting switch block");}
+            }
          //-->
       </script>
     
